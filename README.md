@@ -101,3 +101,11 @@ Name	Issue
 Spring JDBC: simplify usage of NamedParameterJdbcTemplate	SPR-10256 and SPR-10257
 Bean Validation / Hibernate Validator: simplify Maven dependencies and backward compatibility	HV-790 and HV-792
 Spring Data: provide more flexibility when working with JPQL queries	DATAJPA-292
+
+Move the code to the 'develop' branch and remove the 'develop_v1' branch:
+
+```bash
+git checkout develop
+git merge develop_v1
+git branch -d develop_v1
+```
