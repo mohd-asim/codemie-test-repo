@@ -1,0 +1,34 @@
+# Steps to Implement the Sample Application
+
+Based on the README file, here are the steps to implement the sample application for the Spring Petclinic:
+
+1. **Clone the Repository**:
+   ```sh
+   git clone https://github.com/spring-projects/spring-petclinic.git
+   cd spring-petclinic
+   ```
+
+2. **Build the Application**:
+   - Using Maven:
+     ```sh
+     ./mvnw package
+     ```
+
+   - Using Gradle:
+     ```sh
+     ./gradlew build
+     ```
+
+3. **Run the Application**:
+   - Using the built JAR file:
+     ```sh
+     java -jar target/*.jar
+     ```
+
+   - Using Maven directly:
+     ```sh
+     ./mvnw spring-boot:run
+     ```
+
+4. **Access the Application**:
+   - Open your browser and navigate to `http://localhost:8080`.
